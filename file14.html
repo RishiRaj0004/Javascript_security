@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id ="text">Hover over me! </p>
+    <script>
+
+        let t=document.getElementById("text");
+
+        t.addEventListener("mouseover",()=>{
+            t.style.color="red";
+        })
+
+         t.addEventListener("mouseout",()=>{
+            t.style.color="black";
+        })
+    </script>  
+        
+</body>
+</html>
