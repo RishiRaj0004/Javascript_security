@@ -5,7 +5,10 @@ console.log("v1 ="+v1);
 console.log('Type of v1 ='+typeof(v1))
 
 
-var v2="Rishi";
+// var v2="Rishi";
+// console.log('v2 = '+v2 + " and type is :"+typeof v2);
+
+var v2="RAJ";
 console.log('v2 = '+v2 + " and type is :"+typeof v2);
 
 
